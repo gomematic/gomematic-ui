@@ -8,8 +8,8 @@ LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
 EXPOSE 9000 80 443
 VOLUME ["/var/lib/gomematic"]
 
-ENV UMSCHLAG_UI_ASSETS /usr/share/gomematic
-ENV UMSCHLAG_UI_STORAGE /var/lib/gomematic
+ENV GOMEMATIC_UI_ASSETS /usr/share/gomematic
+ENV GOMEMATIC_UI_STORAGE /var/lib/gomematic
 
 ENTRYPOINT ["/usr/bin/gomematic-ui"]
 CMD ["server"]
