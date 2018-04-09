@@ -16,4 +16,4 @@ ENTRYPOINT ["c:\\gomematic-ui.exe"]
 CMD ["server"]
 
 COPY dist/static c:\assets
-COPY gomematic-ui.exe c:\gomematic-ui.exe
+COPY bin/gomematic-ui.exe c:\gomematic-ui.exe
