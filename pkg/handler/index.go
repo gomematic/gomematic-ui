@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"github.com/rs/zerolog/log"
 	"github.com/gomematic/gomematic-ui/pkg/config"
-	"github.com/webhippie/fail"
 	"github.com/gomematic/gomematic-ui/pkg/templates"
+	"github.com/rs/zerolog/log"
+	"github.com/webhippie/fail"
 )
 
 // Index renders the general template on all routes.

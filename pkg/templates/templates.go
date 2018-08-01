@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/rs/zerolog/log"
+	"github.com/Masterminds/sprig"
 	"github.com/gomematic/gomematic-ui/pkg/assets"
 	"github.com/gomematic/gomematic-ui/pkg/config"
-	"github.com/Masterminds/sprig"
+	"github.com/rs/zerolog/log"
 )
 
 // Load loads the template to make it parseable.
