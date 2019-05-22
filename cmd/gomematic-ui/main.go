@@ -18,7 +18,7 @@ func main() {
 
 	app := &cli.App{
 		Name:     "gomematic-ui",
-		Version:  version.Version.String(),
+		Version:  version.String,
 		Usage:    "lightweight and powerful homematic",
 		Authors:  authorList(),
 		Flags:    globalFlags(cfg),
